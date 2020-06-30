@@ -6,6 +6,7 @@
 	"license": "MIT",
 	"scripts": {
 		"build": "webpack --config ./webpack.config.js",
+		"build-source": "webpack --config  ./webpack.config.source.map.js",
 		"dev": "cross-env NODE_ENV=development webpack-dev-server --config ./webpack.config.js"
 	},
 	"devDependencies": {
